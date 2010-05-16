@@ -12,6 +12,7 @@ Group:		Applications/Publishing/TeX
 URL:		http://tug.ctan.org/cgi-bin/ctanPackageInformation.py?id=tikz-inet
 Source0:	http://www.ctan.org/get/graphics/pgf/contrib/%{short_name}.zip
 # Source0-md5:	7ac97b9ad3d4d6ed5b6ec45894f1496c
+BuildRequires:	unzip
 Requires(post,postun):	/usr/bin/texhash
 Requires:	tetex-latex
 Requires:	tetex-pgf
